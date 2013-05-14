@@ -1,8 +1,4 @@
-/*
 
- Rainbowduino v3.0 Library examples : Mood Lamp 
-
-*/
 
 #include <Rainbowduino.h>
 
@@ -287,37 +283,4 @@ z=5;
 
 }
 
-/*
-void loop()
-{
 
-for(z=0; z<64 ;z++)
-{
- for(x=0;x<8;x++)
- {
-    for(y=0;y<8;y++)
-    {
-     //Paint random colors
-     //Rb.setPixelZXY(z,x,y,RED[i],GREEN[i],BLUE[i]); //uses R, G and B color bytes
-     Rb.setPixelXY(x,y,RED[z],GREEN[z],BLUE[z]); //uses R, G and B color bytes
-    }
- }
- delay(100);
-}
-
-for(z=63; z > 0 ;z--)
-{
- for(x=0;x<8;x++)
- {
-    for(y=0;y<8;y++)
-    {
-     //Paint random colors
-     //Rb.setPixelZXY(z,x,y,RED[i],GREEN[i],BLUE[i]); //uses R, G and B color bytes
-     Rb.setPixelXY(x,y,RED[z],GREEN[z],BLUE[z]); //uses R, G and B color bytes
-    }
- }
- delay(100);
-}
-
-}
-*/

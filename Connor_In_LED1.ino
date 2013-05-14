@@ -1,8 +1,4 @@
-/*
 
- Rainbowduino v3.0 Library examples : Mood Lamp 
-
-*/
 
 #include <Rainbowduino.h>
 
