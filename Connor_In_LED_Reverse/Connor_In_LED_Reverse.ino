@@ -1,12 +1,5 @@
-/*
-
- Rainbowduino v3.0 Library examples : Mood Lamp 
-
-*/
-
+//Connor Knabe Rainbowduino text name example
 #include <Rainbowduino.h>
-
-
 
 unsigned char RED[64] = {255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,238,221,204,188,171,154,137,119,102,85,
 68,51,34,17,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,17,35,52};
