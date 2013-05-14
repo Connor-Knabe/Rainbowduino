@@ -33,45 +33,45 @@ void loop(){
 //X plane goes right to left 0 1 2 3
 //Y plane goes away from me 0 1 2 3
   int i;
-
+  z=random(64);
   //Bottom Row
-  delay(50);
+  delay(75);
   for(i=0;i<4;i++) {Rb.setPixelZXY(0,i,3,RED[z],GREEN[z],BLUE[z]);}
   
-  delay(50);
+  delay(75);
   for(i=0;i<4;i++) {Rb.setPixelZXY(0,i,2,RED[z],GREEN[z],BLUE[z]);}
   
-  delay(50);
+  delay(75);
   for(i=0;i<4;i++) {Rb.setPixelZXY(0,i,1,RED[z],GREEN[z],BLUE[z]);}
   
-  delay(50);
+  delay(75);
   for(i=0;i<4;i++) {Rb.setPixelZXY(0,i,0,RED[z],GREEN[z],BLUE[z]);}
  
   //Left Column 
-  delay(50);
+  delay(75);
   for(i=1;i<4;i++) {Rb.setPixelZXY(i,0,3,RED[z],GREEN[z],BLUE[z]);}
   
-  delay(50);
+  delay(75);
   for(i=1;i<4;i++) {Rb.setPixelZXY(i,0,2,RED[z],GREEN[z],BLUE[z]);}
   
-  delay(50);
+  delay(75);
   for(i=1;i<4;i++) {Rb.setPixelZXY(i,0,1,RED[z],GREEN[z],BLUE[z]);} 
   
-  delay(50);
+  delay(75);
   for(i=1;i<4;i++) {Rb.setPixelZXY(i,0,0,RED[z],GREEN[z],BLUE[z]);}
   
   //Top Row
   
-  delay(50);
+  delay(75);
   for(i=1;i<4;i++) {Rb.setPixelZXY(3,i,3,RED[z],GREEN[z],BLUE[z]);}
   
-  delay(50);
+  delay(75);
   for(i=1;i<4;i++) {Rb.setPixelZXY(3,i,2,RED[z],GREEN[z],BLUE[z]);}
   
-  delay(50);
+  delay(75);
   for(i=1;i<4;i++) {Rb.setPixelZXY(3,i,1,RED[z],GREEN[z],BLUE[z]);}
   
-  delay(50);
+  delay(75);
   for(i=1;i<4;i++) {Rb.setPixelZXY(3,i,0,RED[z],GREEN[z],BLUE[z]);}
   
 // END OF C
@@ -81,61 +81,61 @@ delay(500);
 Rb.blankDisplay();
 delay(500);
 
-z=40;
-//Start of O 
 
+//Start of O 
+  z=random(64);
   //Bottom Row
-  delay(50);
+  delay(75);
   for(i=0;i<4;i++) {Rb.setPixelZXY(0,i,3,RED[z],GREEN[z],BLUE[z]);}
   
-  delay(50);
+  delay(75);
   for(i=0;i<4;i++) {Rb.setPixelZXY(0,i,2,RED[z],GREEN[z],BLUE[z]);}
   
-  delay(50);
+  delay(75);
   for(i=0;i<4;i++) {Rb.setPixelZXY(0,i,1,RED[z],GREEN[z],BLUE[z]);}
   
-  delay(50);
+  delay(75);
   for(i=0;i<4;i++) {Rb.setPixelZXY(0,i,0,RED[z],GREEN[z],BLUE[z]);}
  
   //Left Column 
-  delay(50);
+  delay(75);
   for(i=1;i<4;i++) {Rb.setPixelZXY(i,0,3,RED[z],GREEN[z],BLUE[z]);}
   
-  delay(50);
+  delay(75);
   for(i=1;i<4;i++) {Rb.setPixelZXY(i,0,2,RED[z],GREEN[z],BLUE[z]);}
   
-  delay(50);
+  delay(75);
   for(i=1;i<4;i++) {Rb.setPixelZXY(i,0,1,RED[z],GREEN[z],BLUE[z]);} 
   
-  delay(50);
+  delay(75);
   for(i=1;i<4;i++) {Rb.setPixelZXY(i,0,0,RED[z],GREEN[z],BLUE[z]);}
   
   //Top Row
   
-  delay(50);
+  delay(75);
   for(i=1;i<4;i++) {Rb.setPixelZXY(3,i,3,RED[z],GREEN[z],BLUE[z]);}
   
-  delay(50);
+  delay(75);
   for(i=1;i<4;i++) {Rb.setPixelZXY(3,i,2,RED[z],GREEN[z],BLUE[z]);}
   
-  delay(50);
+  delay(75);
   for(i=1;i<4;i++) {Rb.setPixelZXY(3,i,1,RED[z],GREEN[z],BLUE[z]);}
   
-  delay(50);
+  delay(75);
   for(i=1;i<4;i++) {Rb.setPixelZXY(3,i,0,RED[z],GREEN[z],BLUE[z]);}
 
   //Right Side
 
-  delay(50);
+  delay(75);
   for(i=0;i<4;i++) {Rb.setPixelZXY(i,3,3,RED[z],GREEN[z],BLUE[z]);}
     
-  delay(50);
+  delay(75);
   for(i=0;i<4;i++) {Rb.setPixelZXY(i,3,2,RED[z],GREEN[z],BLUE[z]);}
  
-  delay(50);
+  delay(75);
   for(i=0;i<4;i++) {Rb.setPixelZXY(i,3,1,RED[z],GREEN[z],BLUE[z]);}
   
-  delay(50);
+  delay(75);
   for(i=0;i<4;i++) {Rb.setPixelZXY(i,3,0,RED[z],GREEN[z],BLUE[z]);}
   
 // END OF O
@@ -143,84 +143,84 @@ delay(500);
 Rb.blankDisplay();
 delay(500);
 
-z=63;
 //Start of N 
-  delay(50);
+  z=random(64);
+  delay(75);
   for(i=0;i<4;i++) {Rb.setPixelZXY(i,0,3,RED[z],GREEN[z],BLUE[z]);}
   
-  delay(50);
+  delay(75);
   for(i=0;i<4;i++) {Rb.setPixelZXY(i,0,2,RED[z],GREEN[z],BLUE[z]);}
   
-  delay(50);
+  delay(75);
   for(i=0;i<4;i++) {Rb.setPixelZXY(i,0,1,RED[z],GREEN[z],BLUE[z]);}
 
-  delay(50);
+  delay(75);
   for(i=0;i<4;i++) {Rb.setPixelZXY(i,0,0,RED[z],GREEN[z],BLUE[z]);}
 
-  delay(50);
+  delay(75);
   for(i=0;i<4;i++) {Rb.setPixelZXY(3,i,3,RED[z],GREEN[z],BLUE[z]);}
   
-  delay(50);
+  delay(75);
   for(i=0;i<4;i++) {Rb.setPixelZXY(3,i,2,RED[z],GREEN[z],BLUE[z]);}
   
-  delay(50);
+  delay(75);
   for(i=0;i<4;i++) {Rb.setPixelZXY(3,i,1,RED[z],GREEN[z],BLUE[z]);}
   
-  delay(50);
+  delay(75);
   for(i=0;i<4;i++) {Rb.setPixelZXY(3,i,0,RED[z],GREEN[z],BLUE[z]);}
  
-  delay(50);
+  delay(75);
   for(i=0;i<4;i++) {Rb.setPixelZXY(i,3,3,RED[z],GREEN[z],BLUE[z]);}
   
-  delay(50);
+  delay(75);
   for(i=0;i<4;i++) {Rb.setPixelZXY(i,3,2,RED[z],GREEN[z],BLUE[z]);}
   
-  delay(50);
+  delay(75);
   for(i=0;i<4;i++) {Rb.setPixelZXY(i,3,1,RED[z],GREEN[z],BLUE[z]);}
   
-  delay(50);
+  delay(75);
   for(i=0;i<4;i++) {Rb.setPixelZXY(i,3,0,RED[z],GREEN[z],BLUE[z]);}
   
 //END OF N
-z=20;
 delay(500);
 Rb.blankDisplay();
 delay(500);
 //Start of N#2 
-  delay(50);
+  z=random(64);
+  delay(75);
   for(i=0;i<4;i++) {Rb.setPixelZXY(i,0,3,RED[z],GREEN[z],BLUE[z]);}
   
-  delay(50);
+  delay(75);
   for(i=0;i<4;i++) {Rb.setPixelZXY(i,0,2,RED[z],GREEN[z],BLUE[z]);}
   
-  delay(50);
+  delay(75);
   for(i=0;i<4;i++) {Rb.setPixelZXY(i,0,1,RED[z],GREEN[z],BLUE[z]);}
 
-  delay(50);
+  delay(75);
   for(i=0;i<4;i++) {Rb.setPixelZXY(i,0,0,RED[z],GREEN[z],BLUE[z]);}
 
-  delay(50);
+  delay(75);
   for(i=0;i<4;i++) {Rb.setPixelZXY(3,i,3,RED[z],GREEN[z],BLUE[z]);}
   
-  delay(50);
+  delay(75);
   for(i=0;i<4;i++) {Rb.setPixelZXY(3,i,2,RED[z],GREEN[z],BLUE[z]);}
   
-  delay(50);
+  delay(75);
   for(i=0;i<4;i++) {Rb.setPixelZXY(3,i,1,RED[z],GREEN[z],BLUE[z]);}
   
-  delay(50);
+  delay(75);
   for(i=0;i<4;i++) {Rb.setPixelZXY(3,i,0,RED[z],GREEN[z],BLUE[z]);}
  
-  delay(50);
+  delay(75);
   for(i=0;i<4;i++) {Rb.setPixelZXY(i,3,3,RED[z],GREEN[z],BLUE[z]);}
   
-  delay(50);
+  delay(75);
   for(i=0;i<4;i++) {Rb.setPixelZXY(i,3,2,RED[z],GREEN[z],BLUE[z]);}
   
-  delay(50);
+  delay(75);
   for(i=0;i<4;i++) {Rb.setPixelZXY(i,3,1,RED[z],GREEN[z],BLUE[z]);}
   
-  delay(50);
+  delay(75);
   for(i=0;i<4;i++) {Rb.setPixelZXY(i,3,0,RED[z],GREEN[z],BLUE[z]);}
 //END OF N #2
 
@@ -229,58 +229,58 @@ Rb.blankDisplay();
 delay(500);
 
 //Start of O#2
-  z=10;
-  delay(50);
+  z=random(64);  
+  delay(75);
   for(i=0;i<4;i++) {Rb.setPixelZXY(0,i,3,RED[z],GREEN[z],BLUE[z]);}
   
-  delay(50);
+  delay(75);
   for(i=0;i<4;i++) {Rb.setPixelZXY(0,i,2,RED[z],GREEN[z],BLUE[z]);}
   
-  delay(50);
+  delay(75);
   for(i=0;i<4;i++) {Rb.setPixelZXY(0,i,1,RED[z],GREEN[z],BLUE[z]);}
   
-  delay(50);
+  delay(75);
   for(i=0;i<4;i++) {Rb.setPixelZXY(0,i,0,RED[z],GREEN[z],BLUE[z]);}
  
   //Left Column 
-  delay(50);
+  delay(75);
   for(i=1;i<4;i++) {Rb.setPixelZXY(i,0,3,RED[z],GREEN[z],BLUE[z]);}
   
-  delay(50);
+  delay(75);
   for(i=1;i<4;i++) {Rb.setPixelZXY(i,0,2,RED[z],GREEN[z],BLUE[z]);}
   
-  delay(50);
+  delay(75);
   for(i=1;i<4;i++) {Rb.setPixelZXY(i,0,1,RED[z],GREEN[z],BLUE[z]);} 
   
-  delay(50);
+  delay(75);
   for(i=1;i<4;i++) {Rb.setPixelZXY(i,0,0,RED[z],GREEN[z],BLUE[z]);}
   
   //Top Row
   
-  delay(50);
+  delay(75);
   for(i=1;i<4;i++) {Rb.setPixelZXY(3,i,3,RED[z],GREEN[z],BLUE[z]);}
   
-  delay(50);
+  delay(75);
   for(i=1;i<4;i++) {Rb.setPixelZXY(3,i,2,RED[z],GREEN[z],BLUE[z]);}
   
-  delay(50);
+  delay(75);
   for(i=1;i<4;i++) {Rb.setPixelZXY(3,i,1,RED[z],GREEN[z],BLUE[z]);}
   
-  delay(50);
+  delay(75);
   for(i=1;i<4;i++) {Rb.setPixelZXY(3,i,0,RED[z],GREEN[z],BLUE[z]);}
 
   //Right Side
 
-  delay(50);
+  delay(75);
   for(i=0;i<4;i++) {Rb.setPixelZXY(i,3,3,RED[z],GREEN[z],BLUE[z]);}
     
-  delay(50);
+  delay(75);
   for(i=0;i<4;i++) {Rb.setPixelZXY(i,3,2,RED[z],GREEN[z],BLUE[z]);}
  
-  delay(50);
+  delay(75);
   for(i=0;i<4;i++) {Rb.setPixelZXY(i,3,1,RED[z],GREEN[z],BLUE[z]);}
   
-  delay(50);
+  delay(75);
   for(i=0;i<4;i++) {Rb.setPixelZXY(i,3,0,RED[z],GREEN[z],BLUE[z]);}
   
 // END OF O#2
@@ -289,33 +289,33 @@ delay(500);
 Rb.blankDisplay();
 delay(500);
 
-z=10;
 //Start of R
-  delay(50);
+  z=random(64);
+  delay(75);
   for(i=0;i<4;i++) {Rb.setPixelZXY(i,0,3,RED[z],GREEN[z],BLUE[z]);}
 
-  delay(50);
+  delay(75);
   for(i=0;i<4;i++) {Rb.setPixelZXY(i,0,2,RED[z],GREEN[z],BLUE[z]);}
 
-  delay(50);
+  delay(75);
   for(i=0;i<4;i++) {Rb.setPixelZXY(i,0,1,RED[z],GREEN[z],BLUE[z]);}
 
-  delay(50);
+  delay(75);
   for(i=0;i<4;i++) {Rb.setPixelZXY(i,0,0,RED[z],GREEN[z],BLUE[z]);}
 
-  delay(50);
+  delay(75);
   for(i=0;i<4;i++) {Rb.setPixelZXY(3,i,3,RED[z],GREEN[z],BLUE[z]);}
 
-  delay(50);
+  delay(75);
   for(i=0;i<4;i++) {Rb.setPixelZXY(3,i,2,RED[z],GREEN[z],BLUE[z]);}
 
-  delay(50);
+  delay(75);
   for(i=0;i<4;i++) {Rb.setPixelZXY(3,i,1,RED[z],GREEN[z],BLUE[z]);}
   
-  delay(50);
+  delay(75);
   for(i=0;i<4;i++) {Rb.setPixelZXY(3,i,0,RED[z],GREEN[z],BLUE[z]);}
 
-  delay(50);
+  delay(75);
   for(i=0;i<4;i++) {Rb.setPixelZXY(3,3,i,RED[z],GREEN[z],BLUE[z]);}
 //END OF R
 
@@ -324,41 +324,4 @@ delay(1000);
 Rb.blankDisplay();
 delay(1000);
 
-z=5;
-
 }
-
-/*
-void loop()
-{
-
-for(z=0; z<64 ;z++)
-{
- for(x=0;x<8;x++)
- {
-    for(y=0;y<8;y++)
-    {
-     //Paint random colors
-     //Rb.setPixelZXY(z,x,y,RED[i],GREEN[i],BLUE[i]); //uses R, G and B color bytes
-     Rb.setPixelXY(x,y,RED[z],GREEN[z],BLUE[z]); //uses R, G and B color bytes
-    }
- }
- delay(50);
-}
-
-for(z=63; z > 0 ;z--)
-{
- for(x=0;x<8;x++)
- {
-    for(y=0;y<8;y++)
-    {
-     //Paint random colors
-     //Rb.setPixelZXY(z,x,y,RED[i],GREEN[i],BLUE[i]); //uses R, G and B color bytes
-     Rb.setPixelXY(x,y,RED[z],GREEN[z],BLUE[z]); //uses R, G and B color bytes
-    }
- }
- delay(50);
-}
-
-}
-*/
