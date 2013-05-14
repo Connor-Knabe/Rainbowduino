@@ -297,19 +297,18 @@ delay(500);
   for(i=0;i<4;i++) {Rb.setPixelZXY(i,0,0,RED[z],GREEN[z],BLUE[z]);}
 
   delay(50);
-  for(i=0;i<4;i++) {Rb.setPixelZXY(3,i,3,RED[z],GREEN[z],BLUE[z]);}
+  for(i=0;i<3;i++) {Rb.setPixelZXY(3,i,3,RED[z],GREEN[z],BLUE[z]);}
 
   delay(50);
-  for(i=0;i<4;i++) {Rb.setPixelZXY(3,i,2,RED[z],GREEN[z],BLUE[z]);}
+  for(i=0;i<3;i++) {Rb.setPixelZXY(3,i,2,RED[z],GREEN[z],BLUE[z]);}
 
   delay(50);
-  for(i=0;i<4;i++) {Rb.setPixelZXY(3,i,1,RED[z],GREEN[z],BLUE[z]);}
+  for(i=0;i<3;i++) {Rb.setPixelZXY(3,i,1,RED[z],GREEN[z],BLUE[z]);}
   
   delay(50);
-  for(i=0;i<4;i++) {Rb.setPixelZXY(3,i,0,RED[z],GREEN[z],BLUE[z]);}
+  for(i=0;i<3;i++) {Rb.setPixelZXY(3,i,0,RED[z],GREEN[z],BLUE[z]);}
 
-  delay(50);
-  for(i=0;i<4;i++) {Rb.setPixelZXY(3,3,i,RED[z],GREEN[z],BLUE[z]);}
+
 //END OF R
 
 delay(1000);
