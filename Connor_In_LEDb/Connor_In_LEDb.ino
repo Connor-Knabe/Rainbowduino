@@ -26,7 +26,6 @@ void setup()
 
 unsigned int z=40,x,y;
 
-
 void loop(){
 //Start of Connor with C
 
