@@ -17,6 +17,8 @@ void loop(){
   delay(25);
   z=random(64);
   Rb.draw_C(z);
+  z=random(64);
+  Rb.draw_C(z);
 
 
 // END OF C
